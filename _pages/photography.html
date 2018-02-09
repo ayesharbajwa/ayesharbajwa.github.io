@@ -1,25 +1,71 @@
 ---
 layout: splash
+author_profile: false
 permalink: /photography/
 header:
   image: /assets/images/seaside.jpg
-gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: /assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
-    title: "Image 3 title caption"
-  - url: /assets/images/unsplash-gallery-image-4.jpg
-    image_path: /assets/images/unsplash-gallery-image-4-th.jpg
-    alt: "placeholder image 4"
-    title: "Image 4 title caption"
+
+gallery-views:
+  - url: /assets/images/peak.jpg
+    image_path: /assets/images/peak.jpg
+    title: "Denali National Park, AK"
+  - url: /assets/images/ggb.jpg
+    image_path: /assets/images/ggb.jpg
+    title: "San Francisco, CA"
+gallery-views2:
+  - url: /assets/images/denaliscape.jpg
+    image_path: /assets/images/denaliscape.jpg
+    title: "Denali National Park, AK"
+gallery-views3:
+  - url: /assets/images/peak.jpg
+    image_path: /assets/images/peak.jpg
+    title: "Denali National Park, AK"
+
+
+gallery-wild:
+  - url: /assets/images/peak.jpg
+    image_path: /assets/images/peak.jpg
+    title: "Denali National Park, AK"
+  - url: /assets/images/avocet.jpg
+    image_path: /assets/images/avocet.jpg
+    title: "Palo Alto, CA"
+gallery-wild2:
+  - url: /assets/images/flower.jpg
+    image_path: /assets/images/flower.jpg
+    title: "Denali National Park, AK"
+
+
+gallery-urban:
+  - url: /assets/images/berlin.jpg
+    image_path: /assets/images/berlin.jpg
+    title: "Berlin, Germany"
+  - url: /assets/images/tram.jpg
+    image_path: /assets/images/tram.jpg
+    title: "Lisbon, Portugal"
+gallery-urban2:
+  - url: /assets/images/bostonice.jpg
+    image_path: /assets/images/bostonice.jpg
+    title: "Boston, MA"
+
+gallery-vignette:
+  - url: /assets/images/cactus.jpg
+    image_path: /assets/images/cactus.jpg
+    title: "Santa Barbara, CA"
+  - url: /assets/images/cookies.jpg
+    image_path: /assets/images/cookies.jpg
+    title: "Monterey, CA"
+gallery-vignette2:
+  - url: /assets/images/carview.jpg
+    image_path: /assets/images/carview.jpg
+    title: "Palo Alto, CA"
+  - url: /assets/images/tank.jpg
+    image_path: /assets/images/tank.jpg
+    title: "Monterey, CA"
+gallery-vignette3:
+  - url: /assets/images/citysky.jpg
+    image_path: /assets/images/citysky.jpg
+    title: "Nazare, Portugal"
+
 defaults:
   # _pages
   - scope:
@@ -27,17 +73,28 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
 ---
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<br><br><br>
 
-<h3 class="archive__subtitle">{"This is sample page text."}</h3>
+{% include gallery id="gallery-views" caption="**views**" %}
+{% include gallery id="gallery-views2" %}
+{% include gallery id="gallery-views3" %}
 
-{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+<br><br><br>
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+{% include gallery id="gallery-wild" caption="**wild**" %}
+{% include gallery id="gallery-wild2" %}
 
-{% include paginator.html %}
+<br><br><br>
+
+{% include gallery id="gallery-urban" caption="**urban**" %}
+{% include gallery id="gallery-urban2" %}
+
+<br><br><br>
+
+{% include gallery id="gallery-vignette" caption="**vignette**" %}
+{% include gallery id="gallery-vignette2" %}
+{% include gallery id="gallery-vignette3" %}
+
+<br><br><br>

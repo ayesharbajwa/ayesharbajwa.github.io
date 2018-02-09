@@ -6,6 +6,8 @@ main:
    url: /about/
  - title: "Photography"
    url: /photography/
+ - title: "Contact"
+   url: /contact/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
