@@ -3,10 +3,9 @@ main:
  # - title: "Quick-Start Guide"
  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
  - title: "About"
-   #url: https://ayesharbajwa.github.io/about/
-   url: https://ayesharbajwa.github.io/search/
+   url: /about/
  - title: "Photography"
-   url: https://ayesharbajwa.github.io/photography/
+   url: /photography/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
