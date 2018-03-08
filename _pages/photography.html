@@ -16,16 +16,12 @@ gallery-views2:
   - url: /assets/images/denaliscape.jpg
     image_path: /assets/images/denaliscape.jpg
     title: "Denali National Park, AK"
-gallery-views3:
-  - url: /assets/images/peak.jpg
-    image_path: /assets/images/peak.jpg
-    title: "Denali National Park, AK"
 
 
 gallery-wild:
-  - url: /assets/images/peak.jpg
-    image_path: /assets/images/peak.jpg
-    title: "Denali National Park, AK"
+  - url: /assets/images/zebra.jpg
+    image_path: /assets/images/zebra.jpg
+    title: "Maasai Mara National Reserve, Kenya"
   - url: /assets/images/avocet.jpg
     image_path: /assets/images/avocet.jpg
     title: "Palo Alto, CA"
@@ -55,46 +51,42 @@ gallery-vignette:
     image_path: /assets/images/cookies.jpg
     title: "Monterey, CA"
 gallery-vignette2:
-  - url: /assets/images/carview.jpg
-    image_path: /assets/images/carview.jpg
-    title: "Palo Alto, CA"
   - url: /assets/images/tank.jpg
     image_path: /assets/images/tank.jpg
     title: "Monterey, CA"
 gallery-vignette3:
+  - url: /assets/images/carview.jpg
+    image_path: /assets/images/carview.jpg
+    title: "Palo Alto, CA"
+  - url: /assets/images/lifesaver.jpg
+    image_path: /assets/images/lifesaver.jpg
+    title: "Galapagos National Park, Ecuador"
+gallery-vignette4:
   - url: /assets/images/citysky.jpg
     image_path: /assets/images/citysky.jpg
     title: "Nazare, Portugal"
-
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
 ---
 
 <br><br><br>
 
-{% include gallery id="gallery-views" caption="**views**" %}
+{% include gallery id="gallery-views" %}
 {% include gallery id="gallery-views2" %}
-{% include gallery id="gallery-views3" %}
 
 <br><br><br>
 
-{% include gallery id="gallery-wild" caption="**wild**" %}
+{% include gallery id="gallery-wild" %}
 {% include gallery id="gallery-wild2" %}
 
 <br><br><br>
 
-{% include gallery id="gallery-urban" caption="**urban**" %}
+{% include gallery id="gallery-urban" %}
 {% include gallery id="gallery-urban2" %}
 
 <br><br><br>
 
-{% include gallery id="gallery-vignette" caption="**vignette**" %}
+{% include gallery id="gallery-vignette" %}
 {% include gallery id="gallery-vignette2" %}
 {% include gallery id="gallery-vignette3" %}
+{% include gallery id="gallery-vignette4" %}
 
 <br><br><br>

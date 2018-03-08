@@ -2,11 +2,11 @@
 main:
  # - title: "Quick-Start Guide"
  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
- - title: "About"
+ - title: "about"
    url: /about/
- - title: "Photography"
+ - title: "photography"
    url: /photography/
- - title: "Contact"
+ - title: "contact"
    url: /contact/
   # - title: "Sample Collections"
   #   url: /collection-archive/
