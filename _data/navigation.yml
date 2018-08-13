@@ -4,11 +4,9 @@ main:
  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
  - title: "about"
    url: /about/
+ - title: "research"
+   url: /research/
  - title: "photography"
    url: /photography/
  - title: "contact"
    url: /contact/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
