@@ -12,7 +12,7 @@ locale                   : "en-US"
 title                    : "ayesha bajwa"
 title_separator          : "-"
 name                     : "Ayesha Bajwa"
-description              : "My personal website."
+description              : "Personal website."
 url                      : "https://ayesharbajwa.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -86,7 +86,7 @@ analytics:
 author:
   name             : #"Ayesha Bajwa"
   avatar           : "/assets/images/dot.jpg"
-  bio              : "MIT EECS"
+  bio              : "MIT EECS // GRAIL"
   location         : "Palo Alto, CA"
   email            :
   uri              :
